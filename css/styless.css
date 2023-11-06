@@ -1,13 +1,12 @@
-
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 :root {
-  --dark-one: #0F4FA0;
+  --dark-one: #333;
   --dark-two: #7a7a7a;
-  --main-color: #12529D;
+  --main-color: #F57500;
   --light-one: #fff;
   --light-two: #f9fafb;
-  --light-three:#f6f7fb;
+  --light-three: #f6f7fb;
 }
 
 /* Genral Styles */
@@ -86,7 +85,6 @@ img {
 
 .z-index {
   position: relative;
-  bottom: 50px;
   z-index: 2;
 }
 
@@ -208,14 +206,13 @@ img {
 }
 
 .btn:hover {
-  background-color: #1BA7F7;
+  background-color: #F57516;
 }
 
 .btn.small {
   padding: 0.7rem 1.8rem;
   font-size: 1rem;
 }
-
 
 /* End Genral Styles */
 
@@ -277,7 +274,7 @@ nav .container {
 
 .links a.active:hover {
   color: var(--light-one);
-  background-color: #1BA7F7;
+  background-color: #f57500;
 }
 
 .hamburger-menu {
@@ -434,10 +431,6 @@ header .circle {
   margin: 1.7rem 0.8rem;
 }
 
-.card-content{
-  bottom: auto;
-}
-
 .card {
   position: relative;
   width: 100%;
@@ -462,7 +455,7 @@ header .circle {
   font-weight: 800;
   line-height: 1;
   color: var(--main-color);
-  opacity: 0.05;
+  opacity: 0.025;
 }
 
 .card:after {
@@ -486,7 +479,7 @@ header .circle {
 
 .icon {
   width: 90px;
-  margin-bottom: 1.9rem;
+  margin-bottom: 1.7rem;
 }
 
 .card .title-sm {
@@ -623,22 +616,17 @@ header .circle {
   height: 330px;
   width: 100%;
   cursor: pointer;
-  box-shadow: 0 1px 2px 0.5px gray
 }
 
 .gallery-image img {
   position: absolute;
-  max-height: 100%;
- max-width: 100%;
- aspect-ratio: 7/6;
- object-fit: cover;
-
+  height: 115%;
+  width: initial;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   transform-origin: center;
   transition: 0.5s;
-
 }
 
 .gallery-image .img-overlay {
@@ -1495,7 +1483,7 @@ header .circle {
   }
 
   header .letters {
-    width: 6.5%;
+    width: 11%;
   }
 
   .header-content .image .img-element {
@@ -1891,17 +1879,10 @@ header .circle {
     min-height: 80vh;
   }
 
-  header .letters{
-    width: 8%;
-  }
-
-
+  .letters,
   header .half-circle2,
+  header .points1,
   header .wave2 {
-    display: none;
-  }
-
-  header .points1{
     display: none;
   }
 
@@ -2114,18 +2095,11 @@ header .circle {
   .grid-item {
     width: 100%;
   }
-
- 
 }
 
 @media (max-width: 560px) {
   .container {
     padding: 0 2rem;
-  }
-
-  .z-index {
-    bottom: 0px;
-  
   }
 
   .title {
