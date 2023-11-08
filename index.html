@@ -224,13 +224,18 @@
               </div>
               <div class="grid-item webdev">
                 <div class="gallery-image">
+              
                   <img src="./img/portfolio/Screenshot 2023-11-06 030531.png" alt="" />
-                  <div class="img-overlay">
+                  
+                  <div class="img-overlay" onclick="window.location.href='https://creditecapital.com/'">
                     <div class="plus"></div>
                     <div class="img-description">
                       <h3>Eden Home</h3>
-                      <h5>More Info</h5>
                     </div>
+                   <!--MAKE SURE TO FIX ME TOBIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII-->
+                  </div>
+                  <div class="img-description">
+                    <h5><a href="#tobii">More Info</a></h5>
                   </div>
                 </div>
               </div>
@@ -238,10 +243,10 @@
                 <div class="gallery-image">
                   <img src="./img/portfolio/Screenshot 2023-11-06 013942.png" alt="" />
                   <div class="img-overlay">
-                    <div class="plus"></div>
+                    <button class="plus" onclick="myTobiFunction()">More Info</button>
                     <div class="img-description">
-                      <a href="https://creditecapital.com/"><h3>Credite Capital</h3></a>
-                      <h5>More Info</h5>
+                      <h3>Credite Capital</h3>
+                      <h5><a href="#zainab">More Info</a></h5>
                     </div>
                   </div>
                 </div>
@@ -552,8 +557,8 @@
                       <i class="fas fa-star"></i>
                     </div>
 
-                    <p class="review-text">
-                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    <p class="review-text" id="tobii">
+                      tobi rules, ipsum dolor sit amet consectetur adipisicing elit.
                       Laudantium adipisci veniam debitis quas, sapiente
                       repellendus mollitia. Laboriosam labore voluptate quos?
                     </p>
@@ -574,8 +579,8 @@
                       <i class="fas fa-star"></i>
                     </div>
 
-                    <p class="review-text">
-                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    <p class="review-text" id="zainab">
+                      zainab is amazing, sit amet consectetur adipisicing elit.
                       Fugiat voluptate consequatur aut tenetur fugit error
                       molestiae quaerat ex odio rem?
                     </p>
@@ -830,6 +835,10 @@
     <script src="./js/isotope.pkgd.min.js"></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="./js/app.js"></script>
-    
+    <script>
+      function myTobiFunction() {
+        location.replace("https://creditecapital.com/")
+      }
+      </script>
   </body>
 </html>
