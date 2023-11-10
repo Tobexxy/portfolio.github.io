@@ -412,10 +412,10 @@ header .circle {
 
 .letters {
   position: absolute;
-  width: 13.5%;
+  width: 8.5%;
   top: -5px;
   left: 15px;
-  opacity: 0.06;
+  opacity: 0.1;
 }
 
 /* End header */
@@ -490,6 +490,7 @@ header .circle {
 }
 
 .icontap{
+
   height: 60px;
   width: 60px;
   
@@ -1496,6 +1497,7 @@ header .circle {
 
   header .letters {
     width: 6.5%;
+    opacity: 0.1;
   }
 
   .header-content .image .img-element {
@@ -1893,6 +1895,7 @@ header .circle {
 
   header .letters{
     width: 8%;
+    opacity: 0.1;
   }
 
 
