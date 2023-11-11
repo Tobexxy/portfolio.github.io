@@ -12,6 +12,60 @@
 
 /* Genral Styles */
 
+#ch, #ch1, #ch2, #ch3{
+  display: none;
+}
+
+.otjes{
+  display: none;
+  
+} 
+
+#ch:checked ~ .otjes {
+  display: block;
+}
+
+
+#ch:checked ~ label {
+  display: none;
+}
+
+#ch1:checked ~ .otjes {
+  display: block;
+}
+
+
+#ch1:checked ~ label {
+  display: none;
+}
+
+#ch2:checked ~ .otjes {
+  display: block;
+}
+
+
+#ch2:checked ~ label {
+  display: none;
+}
+
+#ch3:checked ~ .otjes {
+  display: block;
+}
+
+
+#ch3:checked ~ label {
+  display: none;
+}
+
+#ch4:checked ~ .otjes {
+  display: block;
+}
+
+
+#ch4:checked ~ label {
+  display: none;
+}
+
 *,
 *::before,
 *::after {
@@ -879,7 +933,7 @@ header .circle {
   display: flex;
   width: 100%;
   justify-content: space-around;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
 }
 
 .blog-wrap {
@@ -957,6 +1011,11 @@ header .circle {
   line-height: 1.6;
   color: #666;
 }
+
+
+/* #ch:checked ~ .otjes{
+  display: block;
+} */
 
 .blog-card:hover {
   transform: translateY(-15px);
@@ -1608,7 +1667,7 @@ header .circle {
   }
 
   .about img {
-    max-width: 420px;
+    max-width: 449px;
   }
 
   .about .text {
@@ -1633,8 +1692,8 @@ header .circle {
   }
 
   .about .points {
-    width: 230px;
-    left: 65%;
+    width: 406px;
+    left: 50%;
   }
 
   .record-circle {
@@ -1682,6 +1741,57 @@ header .circle {
   .blog-text {
     font-size: 0.9rem;
     margin: 0.2rem 0 0.8rem 0;
+  }
+
+  /* DROP DOWN FUNCION CODES */
+  .otjes{
+    display: none;
+    
+  } 
+
+  #ch:checked ~ .otjes {
+    display: block;
+  }
+
+
+  #ch:checked ~ label {
+    display: none;
+  }
+ 
+  #ch1:checked ~ .otjes {
+    display: block;
+  }
+
+
+  #ch1:checked ~ label {
+    display: none;
+  }
+ 
+  #ch2:checked ~ .otjes {
+    display: block;
+  }
+
+
+  #ch2:checked ~ label {
+    display: none;
+  }
+
+  #ch3:checked ~ .otjes {
+    display: block;
+  }
+
+
+  #ch3:checked ~ label {
+    display: none;
+  }
+
+  #ch4:checked ~ .otjes {
+    display: block;
+  }
+
+
+  #ch4:checked ~ label {
+    display: none;
   }
 
   .rate {
