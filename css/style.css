@@ -2221,6 +2221,10 @@ header .circle {
   .followme-wrap {
     margin-top: 0.8rem;
   }
+  .blog-wrapper {
+    
+    flex-wrap: wrap;
+  }
 }
 
 @media (max-width: 600px) {
@@ -2228,6 +2232,10 @@ header .circle {
     width: 100%;
   }
 
+  .blog-wrapper {
+    
+    flex-wrap: wrap;
+  }
  
 }
 
