@@ -2337,6 +2337,11 @@ header .circle {
     padding: 0.8rem 1.4rem;
     margin: 0.25rem 0;
   }
+
+  .blog-wrapper {
+    
+    flex-wrap: wrap;
+  }
 }
 
 /* End Responsive */
