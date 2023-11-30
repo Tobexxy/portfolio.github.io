@@ -12,7 +12,7 @@
 
 /* Genral Styles */
 
-#ch, #ch1, #ch2, #ch3{
+#ch, #ch1, #ch2, #ch3, #ch5{
   display: none;
 }
 
@@ -57,12 +57,12 @@
   display: none;
 }
 
-#ch4:checked ~ .otjes {
+#ch5:checked ~ .otjes {
   display: block;
 }
 
 
-#ch4:checked ~ label {
+#ch5:checked ~ label {
   display: none;
 }
 
@@ -933,7 +933,10 @@ header .circle {
   display: flex;
   width: 100%;
   justify-content: space-around;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: stretch;
 }
 
 .blog-wrap {
@@ -1785,12 +1788,12 @@ header .circle {
     display: none;
   }
 
-  #ch4:checked ~ .otjes {
+  #ch5:checked ~ .otjes {
     display: block;
   }
 
 
-  #ch4:checked ~ label {
+  #ch5:checked ~ label {
     display: none;
   }
 
@@ -2236,6 +2239,12 @@ header .circle {
     
     flex-wrap: wrap;
   }
+
+  .footer-input-wrap {
+    max-width: 300px;
+    margin: 0.95rem auto 0 auto;
+    grid-template-columns: auto 45px;
+  }
  
 }
 
@@ -2349,6 +2358,12 @@ header .circle {
   .blog-wrapper {
     
     flex-wrap: wrap;
+  }
+
+  .footer-input-wrap {
+    max-width: 300px;
+    margin: 0.95rem auto 0 auto;
+    grid-template-columns: auto 45px;
   }
 }
 
