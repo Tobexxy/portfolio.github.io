@@ -2190,7 +2190,7 @@ header .circle {
   }
 
   .grid-4-col {
-    margin: 1rem 0;
+    margin: 1rem -1.5rem;
     padding: 0;
   }
 
@@ -2239,12 +2239,7 @@ header .circle {
     
     flex-wrap: wrap;
   }
-
-  .footer-input-wrap {
-    max-width: 300px;
-    margin: 0.95rem auto 0 auto;
-    grid-template-columns: auto 45px;
-  }
+  
  
 }
 
@@ -2358,12 +2353,6 @@ header .circle {
   .blog-wrapper {
     
     flex-wrap: wrap;
-  }
-
-  .footer-input-wrap {
-    max-width: 300px;
-    margin: 0.95rem auto 0 auto;
-    grid-template-columns: auto 45px;
   }
 }
 
