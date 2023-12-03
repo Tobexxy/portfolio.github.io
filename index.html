@@ -821,13 +821,18 @@
             <div class="contact-form">
               <h3 class="title">Contact me</h3>
               <form action="https://formsubmit.co/2c19ec0b29bf3120d09cea8d8e7c74ef" method="POST">
+              <input type="text" name="_honey" style="display: none;">
+              <input type="hidden" name="_captcha" value="false">
+              <input type="hidden" name="_next" value="https://tobioguns.com/success.html">
               <div class="row">
                 <input
+                  name="name"
                   type="text"
                   class="contact-input"
                   placeholder="First Name"
                 required>
                 <input
+                  name="Last&nbsp;Name"
                   type="text"
                   class="contact-input"
                   placeholder="Last Name"
@@ -835,13 +840,13 @@
               </div>
 
               <div class="row">
-                <input type="text" class="contact-input" placeholder="Phone" />
-                <input type="email" class="contact-input" placeholder="Email" required>
+                <input type="text" class="contact-input" placeholder="Phone" name="Phone&nbsp;Number"/>
+                <input type="email" class="contact-input" placeholder="Email" name="email" required>
               </div>
 
               <div class="row">
                 <textarea
-                  name="message"
+                  name="comment"
                   class="contact-input textarea"
                   placeholder="Message"
                   required
